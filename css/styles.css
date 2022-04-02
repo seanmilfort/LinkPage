@@ -63,6 +63,7 @@ img {
   border-width: 8px;
   padding: 10px;
   transition: .5s;  
+  color: #333333;
 }
 
 .links-section button:hover {
