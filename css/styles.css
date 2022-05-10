@@ -20,8 +20,8 @@ html {
 }
   
 body {
-  color: #EDF2F4;
-  background-color: #333333;
+  color: #E5EFE7;
+  background-color: #000000;
   margin: 0;
   padding: 0;
   font-family: "Raleway", sans-serif;
@@ -33,7 +33,7 @@ h1, h2 {
   font-family: "Caveat", cursive;
   font-weight: 400;
   margin: 0;
-  color: #EDF2F4
+  color: #E5EFE7
 }
 
 h1 {
@@ -49,7 +49,7 @@ h2 {
   padding-bottom: 25px;
 }
 
-img {
+.profile-picture {
   width: 200px;
   height: 267px;
   border-radius: 50%;
@@ -58,25 +58,25 @@ img {
 .links-section button {
   width: 75%;
   font-size: 25px;
-  background-color: #EDF2F4;
-  border-color: #EF233C;
+  background-color: #E5EFE7;
+  border-color: #E21515;
   border-radius: 8px;
   border-width: 8px;
   padding: 10px;
   transition: .5s;  
-  color: #333333;
+  color: #000000;
 }
 
 .links-section button:hover {
   background: hsl(218 17% 62% / 0.1);
   backdrop-filter: blur(1rem);
   width:78%;
-  color: #EDF2F4;
+  color: #E5EFE7;
 }
 
 a {
   text-decoration: none;
-  color: #333333;
+  color: #000000;
 }
 
 a:hover {
@@ -89,4 +89,14 @@ ul {
 
 ul li {
   padding-bottom: 20px;
+}
+
+.logo {
+  width: 700px;
+}
+
+@media screen and (max-width: 699px) {
+  .logo {
+    width: 300px;
+  }
 }
